@@ -1,0 +1,26 @@
+{
+    "name": "gamify",
+    "private": true,
+    "version": "1.0.0",
+    "description": "A configurable game mechanics API built with SailsJS",
+    "dependencies": {
+        "sails": "0.8.89"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "chai": "*",
+        "coffee-script": "*",
+        "request": "*"
+    },
+    "scripts": {
+        "start": "node .app.js",
+        "debug": "node debug .app.js"
+    },
+    "main": ".app.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/carlodicelico/sails-gamify.git"
+    },
+    "author": "Carlo DiCelico",
+    "license": "MIT"
+}
